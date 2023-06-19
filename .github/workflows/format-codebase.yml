@@ -2,9 +2,9 @@ name: 💄 Format Code Base
 
 on:
   push:
-    branches: ["master"]
+    branches: ["main"]
   pull_request:
-    branches: ["master"]
+    branches: ["main"]
 
 jobs:
   format-code-base:
